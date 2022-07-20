@@ -1,5 +1,17 @@
 body {
     background: url(https://img5.goodfon.com/wallpaper/nbig/2/ab/iron-iron-throne-games-of-thrones-swords-tron-zheleznyi-tron.jpg);
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+}
+
+.favoritesList {
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 1%;
+}
+
+.favoriteElement {
+    background-color: yellow;
 }

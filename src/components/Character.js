@@ -8,6 +8,7 @@ class Character extends React.Component {
                 <img src={this.props.image} alt={this.props.name} />
                 <h3>{this.props.name}</h3>
                 <h4>{this.props.title}</h4>
+                <button onClick={this.props.favorite}>Add Favorite</button>
             </div>
         );
     }
