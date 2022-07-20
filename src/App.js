@@ -30,8 +30,9 @@ class App extends React.Component {
         const responseContinents = await requestContinents.json();
 
         responseContinents.forEach((el) => {
-            el.imageUrl = `./img/${el.name.toLowerCase()}.jpg`;
+            el.imageUrl = `/img/${el.name.toLowerCase()}.jpg`;
         });
+        console.log(responseContinents);
 
         this.setState({
             characters: response,
