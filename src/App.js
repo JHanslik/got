@@ -30,7 +30,7 @@ class App extends React.Component {
         const responseContinents = await requestContinents.json();
 
         responseContinents.forEach((el) => {
-            el.imageUrl = `/img/${el.name.toLowerCase()}.jpg`;
+            el.imageUrl = `https://jhanslik.github.io/got/img/${el.name.toLowerCase()}.jpg`;
         });
         console.log(responseContinents);
 
